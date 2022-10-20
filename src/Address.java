@@ -1,10 +1,15 @@
 //Assignment #: ASU Fall 2022 #7
-//Name:
-//StudentID:
-//Lecture:
-//Description:
+//Name: Matt Carlson
+//StudentID: 1224917226
+//Lecture: T - Th 10:30-11:45
+//Description: Stores a string for the street, city, and state and is also
+//			   serializable.
 
-public class Address
+// DONE
+
+import java.io.Serializable;
+
+public class Address implements Serializable
 {
 	//private instance variables
 	private String street, city, state;

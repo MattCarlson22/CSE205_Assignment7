@@ -1,10 +1,14 @@
 //Assignment #: ASU Fall 2022 #7
-//Name:
-//StudentID:
-//Lecture:
-//Description:
+//Name: Matt Carlson
+//StudentID: 1224917226
+//Lecture: T - Th 10:30 - 11:45
+//Description: This class stores information on a Company and implements the Serializable interface
 
-public class Company
+// DONE
+
+import java.io.Serializable;
+
+public class Company implements Serializable
 {
 	//private instance variables accessed by only methods of this class
 	private String name, nameOfCEO;
